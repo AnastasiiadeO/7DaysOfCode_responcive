@@ -1,0 +1,49 @@
+.menu {display: none;}
+
+@media screen and (min-width: 1280px) {
+    .corpo {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .menu {
+        display: block;
+        padding: 1rem 1.5rem;
+        background-color: var(--branco);
+    }
+
+    .menu__links {
+        display: flex;
+        flex-direction: column;
+       text-align: center;
+        gap: 1rem;
+    }
+     .menu__item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+     }
+
+     .menu__item-acao {
+        color: var(--azul-botao);
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .menu__item-img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .menu__item-img-s {
+        width: 24px;
+        height: 24px;
+        opacity: 30%;
+    }
+
+    .menu__item-semacao {
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--cinza-texto);
+    }
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url(reset.css);
+@import url(header.css);
+@import url(cabenete.css);
+@import url(conteiner.css);
+@import url(footer.css);
+@import url(botao-flutuante.css);
+@import url(menu.css);
+
+
+:root {
+    --branco: #FFFFFF;
+    --branco-back: linear-gradient(165.96deg, #F8F4FF 0%, #EFF0F4 100%);
+    --preto: #333333;
+    --cinza-texto: #A3A3A3;
+    --cinza-destaque: #464646;
+    --laranja-botao: #FFB050;
+    --azul-botao: #4894FF;
+
+    --fonte: 'Montserrat', sans-serif;
+}
+
+body {
+    color: var(--cinza-texto);
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 400;
+    background: var(--branco-back);
+
+}
+
+
+

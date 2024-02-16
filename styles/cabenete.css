@@ -1,0 +1,21 @@
+.cabenete {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem auto 2rem 1rem;
+
+    width: 100%;
+}
+
+.cabenete__foto-img {
+    border-radius: 50%;
+    width: 57px;   
+}
+
+.cabenete__dados-comprimento {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cinza-destaque);
+    margin-bottom: 1rem;
+}
+

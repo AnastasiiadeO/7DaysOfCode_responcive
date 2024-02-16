@@ -1,0 +1,149 @@
+.conteiner{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner__dia-titulo {
+    color: var(--cinza-destaque);
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+.conteiner__consulta {
+    background-color: var(--branco);
+    margin: 1rem auto;
+    border-radius: 8px;
+    width: 20.5rem;
+}
+
+.conteiner__consulta-dados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    
+}
+
+.consulta-dados__foto {
+    width: 32px;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+.consulta-dados__info {
+
+    margin: 1rem auto 0 1rem;
+}
+
+.dados__info-nome{
+    color: var(--cinza-destaque);
+    font-weight: 700;
+}
+
+.dados__info-remoto{
+    padding: 0.5rem 1.5rem;
+    font-size: 12px;
+    text-align: right;
+    background: url(../img/camerahsgdhs.png) no-repeat;
+    background-size: 16px;
+    background-position: 0;
+}
+
+.dados__info-presensial{
+    padding: 0.5rem 1.5rem;
+    font-size: 12px;
+    text-align: right;
+    background: url(../img/pin.png) no-repeat;
+    background-size: 16px;
+    background-position: 0;
+}
+
+.consulta-dados__img{
+    width: 32px;
+    margin-right: 1rem;
+}
+
+hr{
+    color: var(--cinza-texto);
+}
+
+.consulta-horario-hora {
+    color: var(--cinza-destaque);
+    font-weight: 500;
+    font-size: 12px;
+    padding: 1rem;
+    border-top: 1px solid var(--cinza-texto);
+}
+
+.conteiner__consulta-botoes {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.consulta-botoes__destaque{
+    background-color: var(--laranja-botao);
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.consulta-botoes__simples {
+    border: 1px solid var(--cinza-texto);
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    color: var(--cinza-destaque);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.consulta-botoes__presencial{
+    background-color: var(--azul-botao);
+    border-radius: 8px;
+    padding: 1rem 6rem;
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media  screen and (min-width: 768px)  {
+
+    .conteiner__consulta {
+        width: 45%;
+        margin: 1rem;
+    }
+    
+    .consultas {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 5%;        
+    }
+
+}
+
+@media  screen and (min-width: 1280px){
+
+    .consultas {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 0 5%;
+    }
+
+    .conteiner__consulta {
+        width: 30%;
+    }
+
+    .conteiner__consulta-dados{
+        padding: 0;
+    }
+}
